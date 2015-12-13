@@ -117,22 +117,27 @@ public class FrameSet extends JPanel{
 									textField5.setText(e);
 									textField6.setText(f);
 									textField7.setText(g);
-									try {
-										File file1 = new File(".\\src\\base\\John Doe.out.txt");
-										PrintWriter pw = new PrintWriter(file1);
-										pw.println(a);
-										pw.println(b);
-										pw.println(c);
-										pw.println(d);
-										pw.println(e);
-										pw.println(f);
-										pw.println(g);
-										
-										pw.close();
-									}catch (FileNotFoundException e) {
-										// TODO Auto-generated catch block
-										e.printStackTrace();
-									}
+									
+									File file1 = new File(".\\src\\proj3\\John Doe.out.txt");
+							PrintWriter pw;
+							try {
+								pw = new PrintWriter(file1);
+								
+								pw.println(a);
+								pw.println(b);
+								pw.println(c);
+								pw.println(d);
+								pw.println(e);
+								pw.println(f);
+								pw.println(g);
+									
+								pw.close();
+							} catch (FileNotFoundException e4) {
+								// TODO Auto-generated catch block
+								e4.printStackTrace();
+							}
+									
+									
 									return;
 								case 2:
 									String a1 = employ3.getName();
@@ -149,22 +154,26 @@ public class FrameSet extends JPanel{
 									textField5.setText(e1);
 									textField6.setText(f1);
 									textField7.setText(g1);
-									try {
-										File file1 = new File(".\\src\\base\\Jane Doe.out.txt");
-										PrintWriter pw = new PrintWriter(file1);
-										pw.println(a1);
-										pw.println(b1);
-										pw.println(c1);
-										pw.println(d1);
-										pw.println(e1);
-										pw.println(f1);
-										pw.println(g1);
 										
-										pw.close();
-									}catch (FileNotFoundException e) {
-										// TODO Auto-generated catch block
-										e.printStackTrace();
-									}
+									File file2 = new File(".\\src\\proj3\\Jane Doe.out.txt");
+							PrintWriter pw1;
+							try {
+								pw1 = new PrintWriter(file2);
+								pw1.println(a1);
+								pw1.println(b1);
+								pw1.println(c1);
+								pw1.println(d1);
+								pw1.println(e1);
+								pw1.println(f1);
+								pw1.println(g1);
+									
+								pw1.close();
+							} catch (FileNotFoundException e4) {
+								// TODO Auto-generated catch block
+								e4.printStackTrace();
+							}
+									
+									
 									return;
 								case 3:
 									String a2 = employee4.getName();
@@ -181,22 +190,25 @@ public class FrameSet extends JPanel{
 									textField5.setText(e2);
 									textField6.setText(f2);
 									textField7.setText(g2);
-									try {
-										File file1 = new File(".\\src\\base\\Kyle Scovill.out.txt");
-										PrintWriter pw = new PrintWriter(file1);
-										pw.println(a2);
-										pw.println(b2);
-										pw.println(c2);
-										pw.println(d2);
-										pw.println(e2);
-										pw.println(f2);
-										pw.println(g2);
+									
+									File file3 = new File(".\\src\\proj3\\Kyle Scovill.out.txt");
+							PrintWriter pw3;
+							try {
+								pw3 = new PrintWriter(file3);
+								pw3.println(a2);
+								pw3.println(b2);
+								pw3.println(c2);
+								pw3.println(d2);
+								pw3.println(e2);
+								pw3.println(f2);
+								pw3.println(g2);
 										
-										pw.close();
-									}catch (FileNotFoundException e) {
-										// TODO Auto-generated catch block
-										e.printStackTrace();
-									}
+								pw3.close();
+									
+							} catch (FileNotFoundException e4) {
+								// TODO Auto-generated catch block
+								e4.printStackTrace();
+							}
 									return;
 								case 4:
 									String a3 = employee5.getName();
@@ -213,22 +225,24 @@ public class FrameSet extends JPanel{
 									textField5.setText(e3);
 									textField6.setText(f3);
 									textField7.setText(g3);
-									try {
-										File file1 = new File(".\\src\\base\\David Nielson.out.txt");
-										PrintWriter pw = new PrintWriter(file1);
-										pw.println(a3);
-										pw.println(b3);
-										pw.println(c3);
-										pw.println(d3);
-										pw.println(e3);
-										pw.println(f3);
-										pw.println(g3);
+									
+									File file4 = new File(".\\src\\proj3\\David Nielson.out.txt");
+							PrintWriter pw4;
+							try {
+								pw4 = new PrintWriter(file4);
+								pw4.println(a3);
+								pw4.println(b3);
+								pw4.println(c3);
+								pw4.println(d3);
+								pw4.println(e3);
+								pw4.println(f3);
+								pw4.println(g3);
 										
-										pw.close();
-									}catch (FileNotFoundException e) {
-										// TODO Auto-generated catch block
-										e.printStackTrace();
-									}
+								pw4.close();
+							} catch (FileNotFoundException e4) {
+								// TODO Auto-generated catch block
+								e4.printStackTrace();
+							}
 									return;
 								case 5:
 									String a6 = employee6.getName();
@@ -245,22 +259,25 @@ public class FrameSet extends JPanel{
 									textField5.setText(e6);
 									textField6.setText(f6);
 									textField7.setText(g6);
-									try {
-										File file1 = new File(".\\src\\base\\Conor Coutts.out.txt");
-										PrintWriter pw = new PrintWriter(file1);
-										pw.println(a6);
-										pw.println(b6);
-										pw.println(c6);
-										pw.println(d6);
-										pw.println(e6);
-										pw.println(f6);
-										pw.println(g6);
-										
-										pw.close();
-									}catch (FileNotFoundException e) {
-										// TODO Auto-generated catch block
-										e.printStackTrace();
-									}
+									
+									File file5 = new File(".\\src\\proj3\\Conor Coutts.out.txt");
+							PrintWriter pw5;
+							try {
+								pw5 = new PrintWriter(file5);
+								pw5.println(a6);
+								pw5.println(b6);
+								pw5.println(c6);
+								pw5.println(d6);
+								pw5.println(e6);
+								pw5.println(f6);
+								pw5.println(g6);
+									
+								pw5.close();
+							} catch (FileNotFoundException e4) {
+								// TODO Auto-generated catch block
+								e4.printStackTrace();
+							}
+									
 									return;
 								case 6:
 									String a7 = employee7.getName();
@@ -277,33 +294,46 @@ public class FrameSet extends JPanel{
 									textField5.setText(e7);
 									textField6.setText(f7);
 									textField7.setText(g7);
-									try {
-										File file1 = new File(".\\src\\base\\Xavier-whatever-lol.out.txt");
-										PrintWriter pw = new PrintWriter(file1);
-										pw.println(a7);
-										pw.println(b7);
-										pw.println(c7);
-										pw.println(d7);
-										pw.println(e7);
-										pw.println(f7);
-										pw.println(g7);
+									
+									File file6 = new File(".\\src\\proj3\\Xavier-whatever-lol.out.txt");
+							PrintWriter pw6;
+							try {
+								pw6 = new PrintWriter(file6);
+								pw6.println(a7);
+								pw6.println(b7);
+								pw6.println(c7);
+								pw6.println(d7);
+								pw6.println(e7);
+								pw6.println(f7);
+								pw6.println(g7);
 										
-										pw.close();
-									}catch (FileNotFoundException e) {
-										// TODO Auto-generated catch block
-										e.printStackTrace();
-									}
+								pw6.close();
+							} catch (FileNotFoundException e4) {
+								// TODO Auto-generated catch block
+								e4.printStackTrace();
+							}
+									
 									return;
 							}
 						}
 					}
 				}
 			);
-					
-		}
+		 button2.addActionListener(
+					new ActionListener() //adds a listener for when the button is pressed
+					{
+						@Override
+						public void actionPerformed(ActionEvent event) // what happens after the yes is clicked
+						{
+							System.exit(0);
+						}
+					});
+
+
+		
 
 	
 
 	
-
+	}
 }

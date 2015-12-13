@@ -12,8 +12,8 @@ public class main {
 		int i = 0;
 		i++;
 		try {
-			File file1 = new File(".\\src\\base\\output.out.txt");
-			PrintWriter pw = new PrintWriter(file1);
+			File file10 = new File(".\\src\\proj3\\counter.out.txt");
+			PrintWriter pw = new PrintWriter(file10);
 			pw.println("Number of times ran: ");
 			pw.print(i);
 			pw.close();

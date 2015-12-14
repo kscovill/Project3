@@ -15,8 +15,8 @@ public class FrameSet extends JPanel{
 
 
 	public FrameSet(){
-		GridLayout layout = new GridLayout(5,4,10,40);
 
+		//Initialize labels and textFields
         String labels[] = {"First:             ", "Last:           ", "Town:           ", "State:          ", "Zip Code:     ", "Address:    ", "Job Status: "};
         JLabel label1 = new JLabel(labels[0]);
         JLabel label2 = new JLabel(labels[1]);
@@ -42,10 +42,13 @@ public class FrameSet extends JPanel{
         textField6.setEditable(false);
         textField7.setEditable(false);
         
+        // Initialize the JComboBox
+        
         String[] employList = {"Choose an employee...", "John Doe", "Jane Doe", "Kyle Scovill", "David Nielson", "Conor Coutts", "Xavier DesCarts Boyle Franklyn Roosevelt Mississippi"};
         JComboBox box = new JComboBox(employList);
         box.setPreferredSize(new Dimension(390, 30));
         
+        // Initialize the Jbuttons
         JButton button1 = new JButton("Gather Information");
         button1.setPreferredSize(new Dimension(300,40));
         JButton button2 = new JButton("Close");
@@ -83,12 +86,16 @@ public class FrameSet extends JPanel{
 		 //frame.setMinimumSize(frame.setPreferredSize());
 		 frame.setVisible(true);
 		 
+		 // adds a listener to the button to gather information
 		 button1.addActionListener(
 				new ActionListener() //adds a listener for when the button is pressed
 				{
 					@Override
 					public void actionPerformed(ActionEvent event) // what happens after the yes is clicked
 					{
+						
+					// Depending on the index selected
+					// changes the textFields to display to cooresponding information
 					while(true){
 						int combo = box.getSelectedIndex();
 						switch(combo){
@@ -319,6 +326,8 @@ public class FrameSet extends JPanel{
 					}
 				}
 			);
+		 
+		 //Add action listener to close JFrame and program
 		 button2.addActionListener(
 					new ActionListener() //adds a listener for when the button is pressed
 					{
